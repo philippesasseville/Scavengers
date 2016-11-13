@@ -3,9 +3,9 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
-    public BoardManager boardScript;
+    private BoardManager boardScript;
 
-    private int level = 3;
+    public int level = 3;
 
 	// Use this for initialization
 	void Awake () {
